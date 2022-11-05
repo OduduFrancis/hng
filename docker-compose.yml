@@ -9,8 +9,5 @@ services:
     build: ./frontend
     ports:
       - "3000:3000"
-<<<<<<< HEAD
  
-=======
->>>>>>> 7fcaf39e (correct)
       
