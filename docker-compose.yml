@@ -1,12 +1,12 @@
 version: '2'
 services:
   api:
-    build: ./api        
+    build: leefrancis2020/apiv2:latest       
     ports:
       - "8000:8000"
 
   web:
-    build: ./frontend
+    build: leefrancis2020/frontendv2:latest
     ports:
       - "3000:3000"
  
