@@ -1,12 +1,12 @@
 version: '2'
 services:
   api:
-    build: leefrancis2020/api:apiv2      
+    image: leefrancis2020/api:apiv2      
     ports:
       - "8000:8000"
 
   web:
-    build: leefrancis2020/frontend:frontendv2
+    image: leefrancis2020/frontend:frontendv2
     ports:
       - "3000:3000"
  
